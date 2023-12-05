@@ -1,0 +1,86 @@
+.contact-us-background {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(241, 251, 254, 1) 50%,
+    /* rgba(255, 255, 255, 1) 50%, */ rgba(0, 170, 232, 1) 50%,
+    rgba(44, 128, 166, 1) 100%
+  );
+}
+.contact-us-background-white {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    /* rgba(241, 251, 254, 1) 50%, */ rgba(255, 255, 255, 1) 50%,
+    rgba(0, 170, 232, 1) 50%,
+    rgba(44, 128, 166, 1) 100%
+  );
+}
+.mainbanner-background {
+  background: rgb(244, 240, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 240, 241, 1) 25%,
+    rgba(232, 209, 197, 1) 42%
+  );
+}
+.slide-line-hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, #00aae8, #00aae8);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms, color 400ms;
+}
+
+.slide-line-hover:hover,
+.slide-line-hover:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+  color: #00aae8;
+}
+
+.head-title p {
+  @apply md:text-[18px]
+  text-[12px]
+  md:leading-[27.5px]
+  leading-[20px]
+  md:tracking-[0.72px]
+  tracking-[0.48px];
+}
+
+.head-title h2 {
+  color: #4a5158;
+  @apply leading-[1.1]
+  md:text-[30px]
+  text-[25px]
+  font-[800]
+  md:mt-[85px]
+  mt-[40px];
+}
+
+.head-title p a {
+  color: #ff7105;
+}
+
+.head-title ul li {
+  @apply ml-[20px]
+  md:text-[18px]
+  text-[12px]
+  md:leading-[27.5px]
+  leading-[20px]
+  md:tracking-[0.72px]
+  tracking-[0.48px];
+}
+
+.caption p {
+  @apply
+  text-main-gray
+  text-[12px]
+  sm:text-[20px]
+  text-center;
+}
+
+.caption a {
+  @apply
+  text-cyan
+}

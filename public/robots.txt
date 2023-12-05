@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Disallow: /thank-you
+Disallow: /forgot-password
+Disallow: /login
+Disallow: /preview
+
+# Host
+Host: https://halcyonagile.com.ph/
+
+# Sitemaps
+Sitemap: https://halcyonagile.com.ph/sitemap.xml
+Sitemap: https://halcyonagile.com.ph//sitemap-0.xml
